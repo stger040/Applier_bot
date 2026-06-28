@@ -1,0 +1,86 @@
+'''
+TEMPLATE FILE — copy this to `config/questions.py` and fill in your own values.
+(`config/questions.py` is git-ignored so your personal info is never committed.)
+
+Author:     Sai Vignesh Golla
+GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
+License:    GNU Affero General Public License
+'''
+
+
+###################################################### APPLICATION INPUTS ######################################################
+
+
+# >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
+
+# Relative path of your default resume to upload. If not found, your last LinkedIn-uploaded resume is used.
+default_resume_path = "all resumes/default/resume.pdf"
+
+# Years of experience to answer on questions (different from current_experience).
+years_of_experience = "0"          # A number in quotes Eg: "0","1","2","3"
+
+# Do you need visa sponsorship now or in the future?
+require_visa = "No"               # "Yes" or "No"
+
+# Link to your portfolio website (or "" to leave unanswered)
+website = ""
+
+# Link to your LinkedIn profile (or "")
+linkedIn = ""
+
+# Citizenship status (or "" to skip)
+# Valid: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident", "Other"
+us_citizenship = "U.S. Citizen/Permanent Resident"
+
+
+## SOME ANNOYING QUESTIONS BY COMPANIES ##
+
+# Desired salary / expected CTC. Numbers only (no quotes).
+desired_salary = 100000
+
+# Current CTC. Numbers only (no quotes).
+current_ctc = 90000
+
+# Notice period in days. Any number >= 0 (no quotes).
+notice_period = 0
+
+# Your LinkedIn headline (or "" to leave unanswered)
+linkedin_headline = "Your professional headline here"
+
+# Your summary. Use triple quotes for multi-line.
+linkedin_summary = """
+A short professional summary about you.
+"""
+
+# Your cover letter. Use triple quotes for multi-line.
+cover_letter = """
+Dear Hiring Manager,
+
+Write your cover letter here.
+
+Sincerely,
+Your Name
+"""
+
+# Used to give the AI context about you (only used if use_AI = True). Put any info you're comfortable sharing.
+user_information_all = """
+Your name, a brief background, key skills, and experience.
+"""
+
+# Name of your most recent employer
+recent_employer = ""
+
+# Example: "On a scale of 1-10 how much experience do you have ...". Any number "1"-"10".
+confidence_level = "7"
+
+
+# >>>>>>>>>>> RELATED SETTINGS <<<<<<<<<<<
+
+# Pause before every submit so you can review? (Recommended True for your first runs.)
+pause_before_submit = True         # True or False
+
+# Pause and ask you when it can't answer a question? (If False, it answers randomly.)
+pause_at_failed_question = True     # True or False
+
+# Overwrite previously saved answers?
+overwrite_previous_answers = False # True or False

@@ -1,0 +1,37 @@
+'''
+TEMPLATE FILE — copy this to `config/personals.py` and fill in your own values.
+(`config/personals.py` is git-ignored so your personal info is never committed.)
+
+Author:     Sai Vignesh Golla
+GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
+License:    GNU Affero General Public License
+'''
+
+
+###################################################### CONFIGURE YOUR TOOLS HERE ######################################################
+
+
+# >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
+
+# Your legal name
+first_name = "First"                 # Your first name in quotes Eg: "First"
+middle_name = ""                     # Your middle name in quotes (or "")
+last_name = "Last"                   # Your last name in quotes Eg: "Last"
+
+# Phone number (required), make sure it's valid.
+phone_number = "0000000000"          # Enter your 10 digit number in quotes Eg: "9876543210"
+
+# What is your current city?
+current_city = ""                    # Eg: "Los Angeles". If left empty as "", the bot will fill in the job's location.
+
+# Address, not so common question but some job applications make it required!
+street = "123 Main St"
+state = "CA"
+zipcode = "00000"
+country = "United States"
+
+## US Equal Opportunity questions  (leave as "" to skip a question; some companies require an answer)
+ethnicity = "Decline"            # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
+gender = "Decline"               # "Male", "Female", "Other", "Decline" or ""
+disability_status = "Decline"    # "Yes", "No", "Decline"
+veteran_status = "Decline"       # "Yes", "No", "Decline"

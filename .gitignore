@@ -1,0 +1,16 @@
+__pycache__
+.vscode
+
+all excels
+all_excels
+all resumes
+all_resumes
+logs
+
+old
+
+secrets.py
+config/personals.py
+config/questions.py
+.venv
+apikeys.py
